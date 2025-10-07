@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "name": "TFT_eSPI-FNK010xx",
+    "authors": [
+        {
+            "name": "Freenove",
+            "email": "support@freenove.com",
+            "url": "https://www.freenove.com"
+        }
+    ],
+    "build": {
+        "includeDir": "include"
+    }
+}
