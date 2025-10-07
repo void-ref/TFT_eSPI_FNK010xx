@@ -1,7 +1,18 @@
 {
     "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
     "name": "TFT_eSPI-FNK010xx",
+    "version": "0.1.0",
+    "description": "TFT_eSPI configuration files for FNK010xx ESP32 displays.",
+    "license": "CC-BY-NC-SA-3.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/void-ref/TFT_eSPI-FNK010xx"
+    },
     "authors": [
+        {
+            "name": "Mitchell Matsumori-Kelly",
+            "maintainer": true
+        },
         {
             "name": "Freenove",
             "email": "support@freenove.com",
@@ -10,5 +21,9 @@
     ],
     "build": {
         "includeDir": "include"
-    }
+    },
+    "homepage": "https://github.com/void-ref/TFT_eSPI-FNK010xx",
+    "frameworks": "*",
+    "platforms": "*",
+    "headers": "TFT_eSPI_FNK010xx/User_Setup_Select.h"
 }
