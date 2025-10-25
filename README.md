@@ -29,6 +29,6 @@ build_flags =
 model = FNK0103S
 tft_defs =
     -D USER_SETUP_LOADED=1
-    -D ${display.model}
+    -D ${devkit.model}
     -include "$PROJECT_LIBDEPS_DIR/$PIOENV/TFT_eSPI_FNK010xx/User_Setup_Select.h"
 ```
